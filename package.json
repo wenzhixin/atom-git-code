@@ -1,0 +1,22 @@
+{
+  "name": "git-code",
+  "main": "./lib/git-code",
+  "version": "0.1.0",
+  "description": "Git Code Tools(Source, Blame and History)",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": [
+      "git-code:source",
+      "git-code:blame",
+      "git-code:history"
+    ]
+  },
+  "repository": "https://github.com/atom/git-code",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "shelljs": "^0.7.8"
+  }
+}

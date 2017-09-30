@@ -1,0 +1,42 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Source git-code",
+        "command": "git-code:source"
+      },
+      {
+        "label": "Blame git-code",
+        "command": "git-code:blame"
+      },
+      {
+        "label": "History git-code",
+        "command": "git-code:history"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "git-code",
+          "submenu": [
+            {
+              "label": "Source",
+              "command": "git-code:source"
+            },
+            {
+              "label": "Blame",
+              "command": "git-code:blame"
+            },
+            {
+              "label": "History",
+              "command": "git-code:history"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

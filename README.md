@@ -23,7 +23,9 @@ git@github.com=https://github.com
 
 Config syntax: `alias=url`. For example:
 ```
+git@github.com=https://github.com
 mygitlab=http://192.168.1.100/gitlab
+other-git=http://xxx.xxx.com
 ```
 
 You can get your alias via `git config --get remote.origin.url` in your git repo.
